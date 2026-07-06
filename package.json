@@ -1,0 +1,39 @@
+{
+  "name": "playwright-testing-guide",
+  "version": "1.0.0",
+  "description": "Playwright Testing Guide",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:codegen": "playwright codegen http://localhost:3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^16.2.10",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@tailwindcss/postcss": "^4.3.2",
+    "@types/node": "^26.1.0",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.5.2",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.10",
+    "playwright": "^1.61.1",
+    "postcss": "^8.5.16",
+    "tailwindcss": "^4.3.2",
+    "typescript": "^6.0.3"
+  }
+}
